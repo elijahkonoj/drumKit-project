@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30vh;
+}
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.drum-pad {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color:  #231e23;
+  color: #FFF5DA;
+  box-shadow: 1px 3px #5D534A;
+  text-align: center;
+}
+
+
+
+#soundOutput {
+  width: 150px;
+  height: 50px;
+  margin-left: 50px;
+  background-color:  #ffff;
+  box-shadow: 1px 3px #5D534A;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color:  #231e23;
+  color: #FFF5DA;
+  margin-top: 40px;
+}
+
